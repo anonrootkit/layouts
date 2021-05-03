@@ -34,6 +34,11 @@ class MainActivity : AppCompatActivity() {
             adapter = CAA()
         }
 
+        toolbar.apply {
+            title = "HeeHa"
+        }
+
+        setSupportActionBar(toolbar)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
